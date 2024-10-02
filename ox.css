@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+}
+
+.clickable-image {
+    width: 210px;
+    height: 150px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.enlarged {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 6px 8px rgba(251, 3, 3, 0.5);
+}
