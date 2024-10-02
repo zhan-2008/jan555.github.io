@@ -1,0 +1,70 @@
+.styles.css
+.flims_head{
+    background-color:rgb(255, 255, 255);
+}
+.flims_a{
+    background-color: rgb(224, 204, 161);
+}
+.flims_a{
+    background-color: rgb(247, 0, 230);
+}
+.element {
+    border: 20px, salmon;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+body {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    padding: 20px 60px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: #ba4c4c;
+    cursor: pointer;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-left{
+    float: left;
+    margin-left: 20px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-left{
+    float: right;
+    margin-right: 25px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-left{
+    float: left;
+    margin-left: 20px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-right{
+    float: right;
+    margin-right: 20px;
+}
