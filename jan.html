@@ -7,23 +7,18 @@
      <link rel="stylesheet" href="css.css">
      <title>music</title>
 </head>
-</header>
-<body style="background-color: rgb(236, 205, 205);"></body>
-    <div class="center">
-    <object type="image/svg+xml" data="images/logo.svg" width="80%" height="80%">
-    <a href="Untitled-1.html">
-    <div class="Image">
-          <center> <img src="https://i.pinimg.com/564x/65/93/b0/6593b07fb520d7806ba3f84202780a07.jpg" width="25%" height="30%" /></center>
-    </div>
-    <div>
-    </a>
+
+<div class="center">
+    <object type="image/svg" data="image/logo.svg" width="75%" height="75%">
+    <img src="https://i.pinimg.com/564x/47/de/71/47de71388f616de1671eede7496660a0.jpg">
     </object>
-    <h2 style="color: rgb(8, 8, 8);">Музыка</h2>
+
+    <h2 style="color: rgb(0, 0, 0);">Музыка</h2>
     <div class="elemtnt">
-         <p> Му́зыка — вид искусства, в котором определённым образом организованные звуки используются для создания некоторого сочетания формы, гармонии, мелодии, ритма или иного выразительного содержания.
+           <p> Му́зыка — вид искусства, в котором определённым образом организованные звуки используются для создания некоторого сочетания формы, гармонии, мелодии, ритма или иного выразительного содержания.
             У всех разные вкусы в музыке кому-то нравится джаз кому-то нравится рок а кому-то нравится поп-музыки.</p>   
     </div> 
-    <section id="main-content">
+       <section id="main-content">
         <p><strong> факты о музыке</strong></p>
         <p style="font-size: larger;"><li>Любая музыка влияет на дыхание, пульс, кровяное давление и энергетику. Музыка может снимать стресс и повышать иммунитет, поднимать силу духа, вдохновить на творчество. Но может и вводить человека в стресс, вызывать агрессию, апатию, ухудшение самочувствия</li></p>
         <p style="font-size: x-large;"><li>Когда человек слушает музыку, которая ему нравится, в этот момент в мозге вырабатывается гормон дофамин</li></p>
@@ -67,9 +62,8 @@
 <header>
     <nav><strong><p>Мои любимые исполнители</p></strong>
         
-    </nav>
     <a href="https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ" class="button">The weeknd</a>
-
+    
     <style>
       .button {
         display: inline-block;
@@ -126,24 +120,23 @@
     <a href="https://open.spotify.com/artist/3JLa8aXwsmX727vtb4bPUi" class="button">Asik</a>
 
     <style>
-      .button {
-        display: inline-block;
+      button {display: inline-block;
         padding: 10px 20px;
         font-size: 16px;
-        color: white;
-        background-color: #9436d6;
+        color: rgb(17, 12, 12);
+        background-color: #b920b4;
         text-align: center;
         text-decoration: none;
-        border-radius: 5px;
+        border-radius: 5px
       }
     
       .button:hover {
-        background-color: #29719b
+        background-color: #cb2323
       }
     </style>
    
    <div class="clearfix">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/FEQ_July_2018_The_Weeknd_%2844778856382%29_%28cropped%29.jpg/800px-FEQ_July_2018_The_Weeknd_%2844778856382%29_%28cropped%29.jpg"width=15% class="img-left">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/FEQ_July_2018_The_Weeknd_%2844778856382%29_%28cropped%29.jpg/800px-FEQ_July_2018_The_Weeknd_%2844778856382%29_%28cropped%29.jpg"width=15% class="img-left">
     <p><strong>Э́йбел Макко́нен Те́сфайе (англ. Abel Makkonen Tesfaye; род. 16 февраля 1990 года, Торонто, Онтарио, Канада), также известный как The Weeknd — канадский певец, автор песен и актёр. Известен своим нетрадиционным музыкальным производством, мрачным лиризмом и частой сменой образов. Его музыка исследует эскапизм, романтику и меланхолию. Обладатель множества музыкальных наград, в том числе четырёх премий «Грэмми», двадцати музыкальных премий Billboard Music Awards, шести премий American Music Awards и трёх премий MTV Video Music Awards. Также номинировался на прайм-таймовую премию «Эмми» и на премию «Оскар» за создание саундтрека к фильму «Пятьдесят оттенков серого».</strong></p>
    </div>
   <div class="clearfix"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGFMRj_CvIPJMZyYAO5CG2gjQ4TTI0MznCFw&s" width=25% class="img-right">
@@ -160,5 +153,73 @@
 </header>
   <script src="./main.js"></script>
 </body>
+<button onclick="toggleTheme()">Сменить тему
+  <!-- Добавляем стикер котика, который будет показываться при наведении на кнопку -->
+  <img src="https://i.pinimg.com/originals/60/d6/c1/60d6c12f2802222cf9564d15d6067137.gif" alt="Котик" class="cat-sticker">
+</button><style>
+  /* Стиль для светлой темы */
+  .light-theme {
+      background-color: rgb(211, 182, 182);
+      color: black;
+  }
 
+  /* Стиль для темной темы */
+  .dark-theme {
+      background-color: rgb(66, 34, 34);
+      color: rgb(255, 253, 253);
+  }
+
+  /* Основные стили для блока */
+  .text-block {
+      font-size: 20px;
+      padding: 20px;
+      margin: 50px auto;
+      width: 50%;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Стиль для кнопки */
+  button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+      position: relative; /* Чтобы привязать стикер к кнопке */
+      overflow: visible;
+  }
+
+  /* Стикер котика, скрыт по умолчанию */
+  .cat-sticker {
+      position: absolute;
+      top: -100px; /* Позиция стикера над кнопкой */
+      left: 50%;
+      transform: translateX(-50%);
+      display: none; /* Скрываем изображение */
+      width: 100px;
+      height: 100px;
+  }
+
+  /* Показываем стикер при наведении на кнопку */
+  button:hover .cat-sticker {
+      display: block;
+  }
+</style>
+</head>
+<body class="light-theme"> <!-- Изначально тело сайта имеет светлую тему -->
+
+    <script>
+        // Функция для смены темы
+        function toggleTheme() {
+            var body = document.body;
+            
+            // Переключаем классы у body между light-theme и dark-theme
+            body.classList.toggle('dark-theme');
+            body.classList.toggle('light-theme');
+        }
+    </script>
+
+</body>
 

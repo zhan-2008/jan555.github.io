@@ -6,7 +6,7 @@
     background-color: rgb(224, 204, 161);
 }
 .flims_a{
-    background-color: rgb(247, 0, 230);
+    background-color: rgb(101, 40, 40);
 }
 .element {
     border: 20px, salmon;
@@ -67,4 +67,59 @@ button {
 .img-right{
     float: right;
     margin-right: 20px;
+}
+.bts {
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+.text-block {
+    font-size: 20px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Стили для светлой темы */
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+/* Стили для тёмной темы */
+.dark-theme {
+    background-color: #409db1;
+    color: rgb(13, 9, 243);
+}
+
+/* Основные стили для текста */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Стиль для кнопки */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:#fa3c3c ;
+    color: white;
+}
+
+button:hover {
+    background-color: #6b1818;
 }
